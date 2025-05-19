@@ -16,19 +16,6 @@ local WEATHER_PERIODS_SECTION = "weather_periods"
 local WEATHER_PRE_BLOWOUT = "pre_blowout"
 local WEATHER_TRANSITION_PERIOD = "transition"
 
-function SetConsoleSettingsFromSection(section, ini_weather)
-	local ini = ini_weather or system_ini()
-	if ini:section_exist(section) then
-		local rec_name, value = "", ""
-		local lines = ini:line_count(section)
-		
-		for current_line = 0, lines - 1 do
-			result, rec_name, value = ini:r_line(section, current_line, "", "")
-			get_console():execute(string.format("%s %s", rec_name, value))
-		end
-	end
-end
-
 --]] -----------------------------------------------------------------------------------------------
 --/											  Functions
 --]] -----------------------------------------------------------------------------------------------
@@ -55,8 +42,6 @@ function WeatherManager:__init()
 	self.next_period_change_hour = 0
 	
 	self:SetWeatherPeriodsList()
-	
-	SetConsoleSettingsFromSection("weather_console_settings", self.graphs_ini)
 end
 
 function WeatherManager:SetWeatherPeriodsList()
