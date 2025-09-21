@@ -109,14 +109,18 @@ end
 
 function WeatherManager:change_period()
 	local current_hour = level.get_time_hours()
-	local surge_manager = surge_manager.get_surge_manager()
-	local g_time = game.get_game_time()
-	local diff_s = math.floor(surge_manager._delta - g_time:diffSec(surge_manager.last_surge_time))
-	local check_outdoor = utils.cfg_get_string(self.graphs_ini, level.name().."_surge_settings", "surge_state", db.actor, false, "", "")
-	if (diff_s < 7200) and check_outdoor == "1" or level.is_wfx_playing() then
-        self.pre_blowout_period = true
-		self.next_period_change_hour = math.mod(self.next_period_change_hour + 1, 24)
+
+	if surge_manager then
+		local surge_manager = surge_manager.get_surge_manager()
+		local g_time = game.get_game_time()
+		local diff_s = math.floor(surge_manager._delta - g_time:diffSec(surge_manager.last_surge_time))
+		local check_outdoor = utils.cfg_get_string(self.graphs_ini, level.name().."_surge_settings", "surge_state", db.actor, false, "", "")
+		if (diff_s < 7200) and check_outdoor == "1" or level.is_wfx_playing() then
+			self.pre_blowout_period = true
+			self.next_period_change_hour = math.mod(self.next_period_change_hour + 1, 24)
+		end
 	end
+
     if current_hour == self.next_period_change_hour then
 		self.last_period_change_hour = current_hour
 		self:SetNextPeriod()
