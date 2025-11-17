@@ -1,4 +1,4 @@
-# CGIM2 Weathers (ver. 1.0) for IX-Ray Platform
+# CGIM2 Weathers (rel. 1.0) for IX-Ray Platform
 
 ## Overview
 
@@ -9,7 +9,8 @@ This is an official adaptation of the CGIM2 weather mod for the IX-Ray platform.
 > [!WARNING]
 >
 > Supported only on __IX-Ray Platform__!
-> Not compatible with other weather mods!
+>
+> Not compatible with other weather mods! Before installing, delete user.ltx
 
 ## Requirements
 
@@ -46,7 +47,8 @@ Link to the current __IX-Ray__ [release](https://github.com/ixray-team/ixray-1.6
 > [!WARNING]
 >
 > Поддерживается только на __IX-Ray Platform__!
-> Не совместимо с другими погодными модами!
+>
+> Не совместимо с другими погодными модами! Перед установкой удалите user.ltx
 
 ## Рекомендации
 
