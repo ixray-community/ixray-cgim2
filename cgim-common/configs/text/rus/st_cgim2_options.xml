@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>	
+	<string id="сgim2_opt_name__title"><text>(Погодный мод) CGIM 2</text></string>
+	<string id="сgim2_opt_name__addon"><text>СGIM 2</text></string>
+	
+	<string id="st_weather_group_1_good"><text>Настройки хорошей погоды</text></string>
+	<string id="st_weather_group_2_neutral"><text>Настройки неетральной</text></string>
+	<string id="st_weather_group_3_alpha"><text>Настройки альфа погоды</text></string>
+	<string id="st_weather_group_4_bad"><text>Настройки плохой погоды</text></string>
+	<string id="st_weather_group_5_foggy"><text>Настройки туманной погоды</text></string>
+	
+	<string id="st_weather_group_preset_np_clear"><text>Шанс перехода к ясной погоде 1 вариант</text></string>
+	<string id="st_weather_group_preset_np_clear2"><text>Шанс перехода к ясной погоде 2 вариант</text></string>
+	<string id="st_weather_group_preset_np_clear3"><text>Шанс перехода к ясной погоде 3 вариант</text></string>
+	<string id="st_weather_group_preset_np_clear4"><text>Шанс перехода к ясной погоде 4 вариант</text></string>
+	
+	<string id="st_weather_group_preset_np_cloudy"><text>Шанс перехода к облачной погоде 1 вариант</text></string>
+	<string id="st_weather_group_preset_np_cloudy2"><text>Шанс перехода к облачной погоде 2 вариант</text></string>
+	<string id="st_weather_group_preset_np_cloudy2_redmoon"><text>Шанс перехода к облачной погоде 2 (красная луна) вариант</text></string>
+	<string id="st_weather_group_preset_np_cloudy3"><text>Шанс перехода к облачной погоде 3 вариант</text></string>
+	<string id="st_weather_group_preset_np_cloudy4"><text>Шанс перехода к облачной погоде 4 вариант</text></string>
+	<string id="st_weather_group_preset_np_cloudy5"><text>Шанс перехода к облачной погоде 5 вариант</text></string>
+	<string id="st_weather_group_preset_swtc_dark"><text>Шанс перехода к swtc пасмурной погоде</text></string>
+	<string id="st_weather_group_preset_swtc_etalon"><text>Шанс перехода к swtc эталон погоде</text></string>
+
+	<string id="st_weather_group_preset_np_alpha"><text>Шанс перехода к альфа погоде 1 вариант</text></string>
+	<string id="st_weather_group_preset_np_alpha2"><text>Шанс перехода к альфа погоде 2 вариант</text></string>
+	<string id="st_weather_group_preset_np_alpha3"><text>Шанс перехода к альфа погоде 3 вариант</text></string>
+	
+	<string id="st_weather_group_preset_np_rain"><text>Шанс перехода к дождливой погоде</text></string>
+	<string id="st_weather_group_preset_np_thunder"><text>Шанс перехода к штормовой погоде</text></string>
+	
+	<string id="st_weather_group_preset_np_foggy"><text>Шанс перехода к туманной погоде</text></string>
+	<string id="st_weather_group_preset_np_foggy_dark"><text>Шанс перехода к пасмурно туманной погоде</text></string>
+	<string id="st_weather_group_preset_np_foggy_nosun"><text>Шанс перехода к туманной погоде без солнца</text></string>
+	
+</string_table>
