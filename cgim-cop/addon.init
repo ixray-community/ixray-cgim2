@@ -1,0 +1,3 @@
+name: CGIM2 COP
+platform: cop
+depends: CGIM2
